@@ -2,8 +2,10 @@ html, body {
     height: 100vh;
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 42px;
 }
 
 .container {
@@ -15,10 +17,10 @@ html, body {
 }
 
 .grid-squares {
-    width: calc(6.25% - 2px); 
+    /* width: calc(6.25% - 2px);  */
     height: 0;
-    padding-bottom: calc(6.25% - 2px);
-    /* margin: 5px;  */
+    /* padding-bottom: calc(6.25% - 2px);
+    margin: 5px;  */
     border: 1px solid black;
     background-color: rgb(56, 199, 232);
 }
